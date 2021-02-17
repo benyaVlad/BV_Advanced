@@ -25,11 +25,12 @@ if (floorSumPrices%2 === 0){
 }
 
 const sumClient = 500;
-const sumRest = (sumClient - priceAspirin)+(sumClient - priceClaritin)+(sumClient - priceSupradyn);
+const sumRest = sumClient - sumPrices;
 console.log(`Сума решти: ${sumRest}`);
 
+
 const sumMedian = sumPrices/3;
-console.log(`Cереднє значення цін, округлене до другого знаку після коми: ${(sumMedian/0.01)*0.01}`);
+console.log(`Cереднє значення цін, округлене до другого знаку після коми: ${sumMedian.toFixed(2)}`);
 
 const saleClaritin = Math.random() * priceClaritin;
 const toPayClaritin = priceClaritin - saleClaritin;
