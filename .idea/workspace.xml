@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd900459-7b39-4409-aef6-05d464061749" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BV_homework2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BV_homework2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BV_homework2/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BV_homework1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/BV_homework1/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <workItem from="1613470289411" duration="9349000" />
       <workItem from="1613656243124" duration="6892000" />
       <workItem from="1613834922839" duration="3426000" />
-      <workItem from="1613997346745" duration="947000" />
+      <workItem from="1613997346745" duration="16572000" />
     </task>
     <servers />
   </component>
