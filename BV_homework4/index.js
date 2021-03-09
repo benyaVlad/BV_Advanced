@@ -57,7 +57,7 @@ console.log(studentsProgress);
 function getPairsRandomMarks (studentsThemes, marks){
     let pairsMarks = [];
     for (let i = 0; i < studentsThemes.length; i++){
-        pairsMarks[i] = [studentsThemes[i], marks[Math.floor(Math.random()*marks.length)]]
+        pairsMarks[i] = [studentsThemes[i], marks[Math.floor(Math.random() * marks.length)]]
     }
     return pairsMarks;
 }
