@@ -71,7 +71,8 @@ getMySalary = function(country) {
     const maxSalary = 2000;
     setInterval(() => {
         mySalary = {};
-        mySalary.randomSalary = Math.floor(Math.random() * (maxSalary - minSalary) + minSalary);
+        mySalary.randomSalary = Math.floor(Math.random() *
+            (maxSalary - minSalary) + minSalary);
         mySalary.taxes = Math.floor(this.tax * mySalary.randomSalary);
         mySalary.profit = mySalary.randomSalary - mySalary.taxes;
         console.log(mySalary);
